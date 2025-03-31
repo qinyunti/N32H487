@@ -6,6 +6,7 @@
 #include "flash_itf.h"
 #include "ff.h"
 #include "xmodem.h"
+#include "kissfft_test.h"
 
 static void helpfunc(uint8_t* param);
 static void printflashfunc(uint8_t* param);
@@ -26,6 +27,8 @@ static void freefunc(uint8_t* param);
 
 static void rxfilefunc(uint8_t* param);
 static void sxfilefunc(uint8_t* param);
+
+static void ffttestfunc(uint8_t* param);
 
 /**
  * 最后一行必须为0,用于结束判断
@@ -51,6 +54,8 @@ const shell_cmd_cfg g_shell_cmd_list_ast[ ] =
 	
   { (uint8_t*)"rxfile",       rxfilefunc,       (uint8_t*)"rxfile name len"},
   { (uint8_t*)"sxfile",       sxfilefunc,       (uint8_t*)"sxfile name len"}, 
+	
+  { (uint8_t*)"ffttest",      ffttestfunc,      (uint8_t*)"ffttest nfft cnt"}, 	
 	
 	
   { (uint8_t*)0,		          0 ,               0},
@@ -756,3 +761,13 @@ void sxfilefunc(uint8_t* param)
   }
 }
 
+void ffttestfunc(uint8_t* param)
+{
+  int cnt;
+	int nfft;
+  if(2 == sscanf((const char*)param, "%*s %d %d", &nfft, &cnt))
+  {
+		kiss_fft_test_cpx(nfft, cnt);
+		kiss_fft_test_real(nfft, cnt);
+  }
+}

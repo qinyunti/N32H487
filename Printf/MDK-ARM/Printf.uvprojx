@@ -569,6 +569,26 @@
               <FileType>5</FileType>
               <FilePath>..\src\xmodem.h</FilePath>
             </File>
+            <File>
+              <FileName>kiss_fft_port.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kiss_fft_port.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft_port.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kiss_fft_port.h</FilePath>
+            </File>
+            <File>
+              <FileName>kissfft_test.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft_test.c</FilePath>
+            </File>
+            <File>
+              <FileName>kissfft_test.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft_test.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -622,7 +642,69 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>New Group</GroupName>
+          <GroupName>kissfft</GroupName>
+          <Files>
+            <File>
+              <FileName>kiss_fftr.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fftr.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fftr.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftndr.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fftndr.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftndr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fftndr.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftnd.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fftnd.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftnd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fftnd.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft_log.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fft_log.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fft.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fft.c</FilePath>
+            </File>
+            <File>
+              <FileName>kfc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kfc.h</FilePath>
+            </File>
+            <File>
+              <FileName>kfc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kfc.c</FilePath>
+            </File>
+            <File>
+              <FileName>_kiss_fft_guts.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\_kiss_fft_guts.h</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>
@@ -1189,6 +1271,26 @@
               <FileType>5</FileType>
               <FilePath>..\src\xmodem.h</FilePath>
             </File>
+            <File>
+              <FileName>kiss_fft_port.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kiss_fft_port.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft_port.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kiss_fft_port.h</FilePath>
+            </File>
+            <File>
+              <FileName>kissfft_test.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft_test.c</FilePath>
+            </File>
+            <File>
+              <FileName>kissfft_test.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft_test.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1242,7 +1344,69 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>New Group</GroupName>
+          <GroupName>kissfft</GroupName>
+          <Files>
+            <File>
+              <FileName>kiss_fftr.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fftr.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fftr.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftndr.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fftndr.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftndr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fftndr.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftnd.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fftnd.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftnd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fftnd.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft_log.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fft_log.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fft.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fft.c</FilePath>
+            </File>
+            <File>
+              <FileName>kfc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kfc.h</FilePath>
+            </File>
+            <File>
+              <FileName>kfc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kfc.c</FilePath>
+            </File>
+            <File>
+              <FileName>_kiss_fft_guts.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\_kiss_fft_guts.h</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>
@@ -1581,7 +1745,7 @@
               <MiscControls></MiscControls>
               <Define>N32H487,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\firmware\CMSIS\core;..\..\firmware\CMSIS\device;..\inc;..\..\firmware\n32h47x_48x_std_periph_driver\inc;..\src;..\src\ff15a\source</IncludePath>
+              <IncludePath>..\..\firmware\CMSIS\core;..\..\firmware\CMSIS\device;..\inc;..\..\firmware\n32h47x_48x_std_periph_driver\inc;..\src;..\src\ff15a\source;..\src\kissfft</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -1962,6 +2126,26 @@
               <FileType>5</FileType>
               <FilePath>..\src\xmodem.h</FilePath>
             </File>
+            <File>
+              <FileName>kiss_fft_port.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kiss_fft_port.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft_port.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kiss_fft_port.h</FilePath>
+            </File>
+            <File>
+              <FileName>kissfft_test.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft_test.c</FilePath>
+            </File>
+            <File>
+              <FileName>kissfft_test.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft_test.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -2066,7 +2250,69 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>New Group</GroupName>
+          <GroupName>kissfft</GroupName>
+          <Files>
+            <File>
+              <FileName>kiss_fftr.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fftr.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fftr.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftndr.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fftndr.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftndr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fftndr.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftnd.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fftnd.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftnd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fftnd.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft_log.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fft_log.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fft.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fft.c</FilePath>
+            </File>
+            <File>
+              <FileName>kfc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kfc.h</FilePath>
+            </File>
+            <File>
+              <FileName>kfc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kfc.c</FilePath>
+            </File>
+            <File>
+              <FileName>_kiss_fft_guts.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\_kiss_fft_guts.h</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>
@@ -2633,6 +2879,26 @@
               <FileType>5</FileType>
               <FilePath>..\src\xmodem.h</FilePath>
             </File>
+            <File>
+              <FileName>kiss_fft_port.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kiss_fft_port.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft_port.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kiss_fft_port.h</FilePath>
+            </File>
+            <File>
+              <FileName>kissfft_test.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft_test.c</FilePath>
+            </File>
+            <File>
+              <FileName>kissfft_test.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft_test.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -2686,7 +2952,69 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>New Group</GroupName>
+          <GroupName>kissfft</GroupName>
+          <Files>
+            <File>
+              <FileName>kiss_fftr.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fftr.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fftr.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftndr.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fftndr.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftndr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fftndr.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftnd.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fftnd.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftnd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fftnd.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft_log.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fft_log.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fft.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fft.c</FilePath>
+            </File>
+            <File>
+              <FileName>kfc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kfc.h</FilePath>
+            </File>
+            <File>
+              <FileName>kfc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kfc.c</FilePath>
+            </File>
+            <File>
+              <FileName>_kiss_fft_guts.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\_kiss_fft_guts.h</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>
@@ -3253,6 +3581,26 @@
               <FileType>5</FileType>
               <FilePath>..\src\xmodem.h</FilePath>
             </File>
+            <File>
+              <FileName>kiss_fft_port.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kiss_fft_port.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft_port.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kiss_fft_port.h</FilePath>
+            </File>
+            <File>
+              <FileName>kissfft_test.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft_test.c</FilePath>
+            </File>
+            <File>
+              <FileName>kissfft_test.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft_test.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -3306,7 +3654,69 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>New Group</GroupName>
+          <GroupName>kissfft</GroupName>
+          <Files>
+            <File>
+              <FileName>kiss_fftr.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fftr.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fftr.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftndr.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fftndr.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftndr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fftndr.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftnd.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fftnd.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fftnd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fftnd.c</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft_log.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fft_log.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kiss_fft.h</FilePath>
+            </File>
+            <File>
+              <FileName>kiss_fft.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kiss_fft.c</FilePath>
+            </File>
+            <File>
+              <FileName>kfc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\kfc.h</FilePath>
+            </File>
+            <File>
+              <FileName>kfc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\kissfft\kfc.c</FilePath>
+            </File>
+            <File>
+              <FileName>_kiss_fft_guts.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\kissfft\_kiss_fft_guts.h</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>
