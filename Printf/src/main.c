@@ -162,7 +162,7 @@ int main(void)
 	  uart_init(0,115200);
 		
 	  //mco_init();
-	 	spi_init(0, 2000000ul, 3);
+	 	spi_init(0, 20000000ul, 3);
 	  flash_itf_init();
 	
     xdev_out(xprintf_out_port);

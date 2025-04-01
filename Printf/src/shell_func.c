@@ -29,6 +29,7 @@ static void rxfilefunc(uint8_t* param);
 static void sxfilefunc(uint8_t* param);
 
 static void ffttestfunc(uint8_t* param);
+static void speexfunc(uint8_t* param);
 
 /**
  * 最后一行必须为0,用于结束判断
@@ -56,7 +57,8 @@ const shell_cmd_cfg g_shell_cmd_list_ast[ ] =
   { (uint8_t*)"sxfile",       sxfilefunc,       (uint8_t*)"sxfile name len"}, 
 	
   { (uint8_t*)"ffttest",      ffttestfunc,      (uint8_t*)"ffttest nfft cnt"}, 	
-	
+
+  { (uint8_t*)"speex",        speexfunc,        (uint8_t*)"speex mic spk out"}, 		
 	
   { (uint8_t*)0,		          0 ,               0},
 };
@@ -769,5 +771,20 @@ void ffttestfunc(uint8_t* param)
   {
 		kiss_fft_test_cpx(nfft, cnt);
 		kiss_fft_test_real(nfft, cnt);
+  }
+}
+
+extern int speex_main(int argc, char **argv);
+void speexfunc(uint8_t* param)
+{
+	char* cmd = "speex";
+  char mic[32];
+	char spk[32];
+	char out[32];
+	char* argv[4]={cmd,mic,spk,out};
+  if(3 == sscanf((const char*)param, "%*s %s %s %s", mic, spk, out))
+  {
+		xprintf("speex %s %s %s\r\n",mic, spk, out);
+		speex_main(4, argv);
   }
 }
